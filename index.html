@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Pet Journal</title>
+  <link rel="stylesheet" href="custom.css" />
+</head>
+<body>
+  <div id="top"></div>
+
+  <!-- 🧭 Navigation -->
+  <nav style="text-align: center; margin-bottom: 20px;">
+    <a href="resume.html">👤 My Resume</a> |
+    <a href="webapp.html">🤖 My Web App</a>
+  </nav>
+
+  <h1>🐾 Welcome to My Pet Journal</h1>
+
+  <div class="intro-block">
+    <p>This page is dedicated to my adorable dog, Goma 🐶, and our adventures together.</p>
+    <img src="images/space.jpg" alt="Goma in the park" width="400" />
+  </div>
+
+  <div class="list-block">
+    <h2>Top 3 Things Goma Loves</h2>
+    <ol>
+      <li>Favorite Activities
+        <ul>
+          <li>Playing fetch</li>
+          <li>Chasing squirrels</li>
+        </ul>
+      </li>
+      <li>Favorite Snacks
+        <ul>
+          <li>Chicken jerky</li>
+          <li>Peanut butter biscuits</li>
+        </ul>
+      </li>
+      <li>Places We've Been
+        <ul>
+          <li>Provo Canyon</li>
+          <li>Japanese mountains</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div id="myvideo" class="video-block">
+    <h2>📺 Featured Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div class="tableau-block">
+    <h2>📊 Explore Goma's Walk Tracker</h2>
+    <div class='tableauPlaceholder' id='viz1744667338880' style='position: relative; width: 700px; height: 525px; margin: auto;'>
+      <noscript>
+        <a href='#'>
+          <img alt='工作表 1 ' src='https://public.tableau.com/static/images/Go/GomaWalkTracker/1/1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='GomaWalkTracker/1' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/Go/GomaWalkTracker/1/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='zh-CN' />
+      </object>
+    </div>
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1744667338880');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '700px';
+      vizElement.style.height = '525px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+  <footer>
+    <p><a href="#top">Back to Top</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Goma's Joke Generator</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fffaf0;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #914f00;
+      font-weight: bold;
+    }
+
+    h1 {
+      color: #5c3d00;
+    }
+
+    .joke-box {
+      background-color: #fff3e6;
+      border-radius: 12px;
+      padding: 30px;
+      margin: 40px auto;
+      width: 70%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-size: 1.2em;
+      transition: all 0.3s ease-in-out;
+      min-height: 100px;
+    }
+
+    button {
+      padding: 12px 24px;
+      background-color: #ffaf47;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      font-weight: bold;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e59500;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🧭 Navigation -->
+  <nav>
+    <a href="index.html">🐾 Pet Journal</a> |
+    <a href="resume.html">👤 My Resume</a>
+  </nav>
+
+  <h1>🤖 Goma's Joke Generator</h1>
+  <p>Click the button below and Goma will tell you a random joke!</p>
+
+  <div class="joke-box" id="joke">
+    Click the button to hear Goma's joke! 🐶
+  </div>
+
+  <button onclick="showJoke()">Tell Me a Joke</button>
+
+  <footer>
+    <p>&copy; 2025 Goma's Web App | Made with ❤️ and a tail wag</p>
+  </footer>
+
+  <script>
+    const jokes = [
+      "Why did the dog sit in the shade? Because he didn’t want to be a hot dog!",
+      "What do you call a cold dog? A chili dog!",
+      "What did the tree say to the dog? Bark!",
+      "Why did Goma bring toilet paper to the party? Because he was a party pooper!",
+      "I asked Goma if he wanted to go for a walk... he said pawsitively!"
+    ];
+
+    function showJoke() {
+      const randomIndex = Math.floor(Math.random() * jokes.length);
+      const jokeText = jokes[randomIndex];
+      document.getElementById("joke").textContent = jokeText;
+    }
+  </script>
+
+</body>
+</html>

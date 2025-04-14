@@ -1,0 +1,97 @@
+/* 通用字体与背景设置 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  /* 顶部标题 */
+  h1 {
+    text-align: center;
+    color: #5c3d00;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  /* 副标题 */
+  h2 {
+    color: #914f00;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  /* 引言区 */
+  .intro-block {
+    text-align: center;
+    background-color: #fff2e6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .intro-block img {
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* 列表区域 */
+  .list-block {
+    background-color: #fffaf3;
+    padding: 20px;
+    border-left: 5px solid #ffd699;
+    border-radius: 10px;
+  }
+  
+  .list-block ol {
+    padding-left: 20px;
+  }
+  
+  .list-block li {
+    margin-bottom: 10px;
+  }
+  
+  /* 视频区域 */
+  .video-block {
+    background-color: #fdf4e3;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .video-block iframe {
+    border-radius: 10px;
+  }
+  
+  /* Tableau 区块 */
+  .tableau-block {
+    background-color: #f9f2ec;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  /* 页脚 */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  footer a {
+    color: #914f00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
